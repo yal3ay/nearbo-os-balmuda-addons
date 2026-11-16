@@ -8,7 +8,7 @@ Nearbo OS（基于 LineageOS 24.0 / Android 17）的附加包。ROM 本身不带
 |---|---|
 | Google 服务 | MindTheGapps 17.0.0 arm64（精简版） |
 | Google 服务兼容性 | com.xz1c.compatibility，装好后在 APatch 里授予 root |
-| 巴慕达应用 | 巴慕达原厂的时钟、日历、备忘录、计算器、相机，以及它们需要的 com.balmuda.phone.jb 库 |
+| 巴慕达应用 | 巴慕达原厂的时钟、日历、备忘录、计算器、相机，以及它们需要的 com.balmuda.phone.jb 库。**时钟要用 Google 服务定位，需同时安装 Google 服务** |
 
 - 包的列表在 [`addons.json`](addons.json)，文件在 [Releases](../../releases)。
 - 每个包都用 Nearbo OS 的发布密钥签名，系统只接受这个密钥签的包。也可以在 TWRP 里手动刷。
@@ -26,7 +26,7 @@ TWRP to install, and restarts back. addon.d keeps them across OTA updates.
 
 - Google services: MindTheGapps 17.0.0 arm64 (trimmed)
 - Google services compatibility: com.xz1c.compatibility (grant root in APatch after install)
-- BALMUDA apps: stock BALMUDA Clock, Calendar, Notes, Calculator, Camera and the com.balmuda.phone.jb library
+- BALMUDA apps: stock BALMUDA Clock, Calendar, Notes, Calculator, Camera and the com.balmuda.phone.jb library (Clock needs Google services for location)
 
 The list is [`addons.json`](addons.json); the files are on the [Releases](../../releases) page.
 Packages are signed with the Nearbo OS release key. BALMUDA apps are © BALMUDA / Kyocera;
