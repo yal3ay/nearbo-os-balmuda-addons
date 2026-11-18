@@ -13,11 +13,11 @@
     },
     {
       "id": "compat",
-      "version": "0.1.6-p36",
+      "version": "0.1.6-p41",
       "versionCode": 20261118,
       "file": "Nearbo-Compat-20261118.zip",
-      "size": 62134619,
-      "sha256": "f0acccd09d5f2a797154c01962c0142116ad2da0f20542687822b1a8dbe4c157",
+      "size": 62151003,
+      "sha256": "003f6ae29e1bf7faf3525e1dc7cc1571e09201e123c9e65aaefef50d3e7e9f34",
       "url": "https://github.com/yal3ay/nearbo-os-balmuda-addons/releases/download/addons-20261116/Nearbo-Compat-20261118.zip"
     },
     {
